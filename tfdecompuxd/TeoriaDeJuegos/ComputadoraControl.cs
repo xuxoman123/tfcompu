@@ -84,7 +84,7 @@ namespace TeoriaDeJuegos
 
         private void bt_definir_credito_Click(object sender, EventArgs e)
         {
-            // logica_boton(dinero, txb_credito.Text, txb_inversion.Text, label10.Text, e1);
+            // logica_boton(dinero, txb_credito.Text, txb_inversion.Text, label10.Text, e1); //:3
             JugadorControl jugadorcontrol = new JugadorControl();
             ComputadoraControl computadoracontrol = new ComputadoraControl();
                 int prueba = Convert.ToInt32(jugadorcontrol.label10.Text) - Convert.ToInt32(label10.Text);
